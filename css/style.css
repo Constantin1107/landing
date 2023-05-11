@@ -1,0 +1,134 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.card {
+  color: rgb(204, 0, 0);
+  font-size: 50px;
+  width: 400px;
+  display: block;
+  justify-content: center;
+  line-height: 1;
+  margin: auto;
+}
+
+.card p {
+  font-size: 30px;
+}
+
+.button {
+  background-color: rgb(204, 0, 0);
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+.button:hover {
+  background-color: rgb(140, 9, 9);
+}
+
+.red-line {
+  background-color: rgb(204, 0, 0);
+  width: 100%;
+  height: 30px;
+}
+
+.main {
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.main-header-and-cards {
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+.main h2 {
+  font-size: 50px;
+  color: rgb(204, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.card-one, .card-two, .card-three {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 30px;
+  margin: 30px 30px;
+}
+
+.card-icons {
+  color: rgb(204, 0, 0);
+  font-size: 50px;
+}
+
+.footer {
+  background-color: rgb(204, 0, 0);
+  width: 100%;
+  height: 200px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 50px;
+  height: 55%;
+  align-items: center;
+}
+
+.icons a {
+  color: white;
+  padding: 20px;
+}
+
+.icons a:hover {
+  color: rgb(0, 0, 0);
+}
